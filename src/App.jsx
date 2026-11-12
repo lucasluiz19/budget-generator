@@ -73,11 +73,11 @@ export function App() {
 
     // EMPRESA
     pdf.setFontSize(16);
-    pdf.text("Upgrade Audio Car", 10, y);
+    pdf.text("LM Parts", 10, y);
     y += 8;
 
     pdf.setFontSize(10);
-    pdf.text("Rua Valter da Silva n 111 - Por do Sol", 10, y);
+    pdf.text("Rua Aristides Zanichelli nº 606 - Vale do Sol", 10, y);
     y += 5;
     pdf.text("Quatá - SP", 10, y);
     y += 5;
@@ -167,8 +167,8 @@ export function App() {
       <div id="orcamento" className="orcamento">
         <div className="header">
           <div>
-            <h2>Upgrade Audio Car</h2>
-            <p>Rua Valter da Silva n 111 - Por do Sol</p>
+            <h2>LM Parts</h2>
+            <p>Rua Aristides Zanichelli nº 606 - Vale do Sol</p>
             <p>Quatá - SP</p>
             <p>Telefone: (18) 99642-5357</p>
           </div>
